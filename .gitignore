@@ -1,0 +1,5 @@
+git__pycache__/
+*.pyc
+.env
+classified_data/
+temp_files/
