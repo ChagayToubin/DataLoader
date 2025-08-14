@@ -1,7 +1,9 @@
 from fastapi import FastAPI
+from services.dataLoader.DAL import DAL
 
 app = FastAPI()
+dal = DAL()
 
-@app.get("/")
-def read_root():
-    return {"message": "Hello, FastAPI!"}
+@app.get("/data")
+def get_data():
+    return {"data": dal.get_all_data()}
