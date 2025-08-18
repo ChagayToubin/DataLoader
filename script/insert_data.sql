@@ -1,0 +1,22 @@
+USE mydb;
+INSERT INTO data (id, name, food) VALUES
+(1, 'Dog', 'Bone'),
+(2, 'Cat', 'Fish'),
+(3, 'Horse', 'Hay'),
+(4, 'Cow', 'Grass'),
+(5, 'Sheep', 'Grain'),
+(6, 'Goat', 'Leaves'),
+(7, 'Lion', 'Meat'),
+(8, 'Tiger', 'Chicken'),
+(9, 'Elephant', 'Banana'),
+(10, 'Monkey', 'Mango'),
+(11, 'Rabbit', 'Carrot'),
+(12, 'Duck', 'Corn'),
+(13, 'Chicken', 'Seeds'),
+(14, 'Bear', 'Honey'),
+(15, 'Wolf', 'Deer'),
+(16, 'Fox', 'Berries'),
+(17, 'Deer', 'Grass'),
+(18, 'Panda', 'Bamboo'),
+(19, 'Kangaroo', 'Grass'),
+(20, 'Giraffe', 'Leaves');

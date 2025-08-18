@@ -19,3 +19,8 @@ mysql -u chagaytoubin -h  -P 3036 -dbfg
 
 
 oc get svc
+
+oc apply -f infrastructure/k8s/mysql-secret.yaml -n chagaytoubin-dev
+oc apply -f infrastructure/k8s/mysql-pvc.yaml -n chagaytoubin-dev
+oc apply -f infrastructure/k8s/mysql-deployment.yaml -n chagaytoubin-dev
+oc apply -f infrastructure/k8s/mysql-service.yaml -n chagaytoubin-dev
