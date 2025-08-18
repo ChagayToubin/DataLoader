@@ -1,0 +1,9 @@
+CREATE DATABASE IF NOT EXISTS mydb;
+USE mydb;
+DROP TABLE data;
+CREATE TABLE data
+(
+    id        INT PRIMARY KEY,
+    name VARCHAR(50) NOT NULL,
+    food  VARCHAR(50) NOT NULL
+);
